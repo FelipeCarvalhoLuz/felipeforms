@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validador.js"></script>
+</head>
+
+<nav class="navbar">
+    <div class="logo">
+        <a href="#">Felipe Marketing</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
+
+
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Entre em contato com a gente</h2>
+            <form id="contactForm">
+                <label for="nome">Seu Nome*</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="whatsapp">Seu WhatsApp*</label>
+                <input type="tel" id="whatsapp" name="whatsapp" required>
+
+                <label for="email">Seu E-mail*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="detalhesProjeto">Detalhe seu projeto*</label>
+                <textarea id="detalhesProjeto" name="detalhesProjeto" required></textarea>
+
+                <label for="necessidade">Do que você precisa?*</label>
+                <select id="necessidade" name="necessidade" required>
+                    <option value="">Selecione...</option>
+                    <option value="Consultoria">Consultoria</option>
+                    <option value="Suporte Técnico">Suporte Técnico</option>
+                    <option value="Desenvolvimento">Desenvolvimento</option>
+                </select>
+
+                <label for="segmentoMercado">Qual é o seu segmento de mercado?*</label>
+                <textarea id="segmentoMercado" name="segmentoMercado" required></textarea>
+
+                <label for="cep">CEP*</label>
+                <textarea id="cep" name="cep" required></textarea>
+
+                <label for="bairro">Bairro*</label>
+                <textarea id="bairro" name="bairro" required></textarea>
+
+                <label for="rua">Rua*</label>
+                <textarea id="rua" name="rua" required></textarea>
+
+                <label for="numero">Número*</label>
+                <textarea id="numero" name="numero" required></textarea>
+
+
+                <label for="modeloNegocio">Qual é o seu modelo de negócios?*</label>
+                <input type="text" id="modeloNegocio" name="modeloNegocio" required>
+
+                <label for="ferramentasUsadas">Quais ferramentas de marketing digital você já utiliza?*</label>
+                <input type="text" id="ferramentasUsadas" name="ferramentasUsadas" required>
+
+                <label for="temWebsite">Você já tem um website?*</label>
+                <select id="temWebsite" name="temWebsite" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+                <label for="temListaEmails">Você tem uma lista de e-mails para campanhas de marketing?*</label>
+                <select id="temListaEmails" name="temListaEmails" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+                <label for="frequenciaPublicacoes">Qual a frequência de publicações que você realiza nas redes
+                    sociais?*</label>
+                <input type="text" id="frequenciaPublicacoes" name="frequenciaPublicacoes" required>
+
+                <label for="dorCliente">Qual é a principal dor ou necessidade de seus clientes?*</label>
+                <input type="text" id="dorCliente" name="dorCliente" required>
+
+                <label for="estudoPersona">Você já fez algum estudo de persona?*</label>
+                <select id="estudoPersona" name="estudoPersona" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+                <label for="usaCRM">Você utiliza algum CRM (Customer Relationship Management)?*</label>
+                <select id="usaCRM" name="usaCRM" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+                <label for="concorrente">Qual é o seu maior concorrente no mercado?*</label>
+                <input type="text" id="concorrente" name="concorrente" required>
+
+                <label for="medicaoSucesso">Como você mede o sucesso das suas campanhas de marketing?*</label>
+                <input type="text" id="medicaoSucesso" name="medicaoSucesso" required>
+                <label for="faixaEtaria">Qual é a faixa etária do seu público-alvo?*</label>
+                <input type="text" id="faixaEtaria" name="faixaEtaria" required>
+
+                <label for="canalAquisicao">Qual é o seu canal de aquisição mais eficaz?*</label>
+                <input type="text" id="canalAquisicao" name="canalAquisicao" required>
+
+                <label for="motivacaoCompra">Qual é a principal motivação de compra dos seus clientes?*</label>
+                <input type="text" id="motivacaoCompra" name="motivacaoCompra" required>
+
+                <label for="emailMarketing">Você realiza campanhas de e-mail marketing?*</label>
+                <select id="emailMarketing" name="emailMarketing" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+                <label for="remarketing">Você já fez algum tipo de remarketing?*</label>
+                <select id="remarketing" name="remarketing" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+                <label for="suporteCliente">Qual tipo de suporte você oferece para seus clientes?*</label>
+                <input type="text" id="suporteCliente" name="suporteCliente" required>
+
+                <label for="programaFidelidade">Você possui algum programa de fidelidade ou recompensas?*</label>
+                <select id="programaFidelidade" name="programaFidelidade" required>
+                    <option value="">Selecione...</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+
+
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h3>Nossas informações</h3>
+            <p><strong>Telefone:</strong> (47) 98913-9026</p>
+            <p><strong>E-mail:</strong> felipe_carvalho-luz@estudante.sesisenai.org.br</p>
+            <p><strong>Endereço:</strong> Sesi de referencia, joinville</p>
+        </div>
+    </div>
+</body>
+
+</html>
